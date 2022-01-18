@@ -1,0 +1,29 @@
+header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #16213E;
+}
+
+.nav-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.nav-content h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    width: 70%;
+}
+
+.nav-links span {
+    font-size: 1.1em;
+}
