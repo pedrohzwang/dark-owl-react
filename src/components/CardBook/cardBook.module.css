@@ -1,0 +1,35 @@
+.card{
+    flex: 1 1 400px;
+    background-color: #28282C; 
+    display: flex;
+    padding: 2%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFF;
+    border: 1px solid #3d3b3bb9;
+}
+
+.card > img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+.card > span {
+    font-size: 12px;
+}
+
+.card > button {
+    background-color: #8ee3c8;
+    color: black;
+}
+.card > button:hover {
+    background-color: #fafafa;
+    color: black;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2em #8ee3c8;
+    transition: 0.5s;
+}
