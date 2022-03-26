@@ -8,24 +8,16 @@
     justify-content: space-between;
     color:#FFF;
     border: 1px solid #3d3b3bb9;
+    text-align: justify;
 }
 
 .card > img {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 40%;
+    max-height: 40%;
 }
 
 .card > span {
     font-size: 12px;
-}
-
-.card > button {
-    background-color: #8ee3c8;
-    color: black;
-}
-.card > button:hover {
-    background-color: #fafafa;
-    color: black;
 }
 
 .card:hover {
