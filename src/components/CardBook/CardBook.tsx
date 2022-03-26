@@ -1,5 +1,5 @@
 import styles from "./cardBook.module.css"
-import Button from '@mui/material/Button';
+import Button from "../Button/"
 
 interface CardBooksProps {
     imgSrc : string,
@@ -13,7 +13,7 @@ export default function CardBook(props : CardBooksProps){
             <img src={props.imgSrc} alt="Mamão" />
             <h3>{props.title}</h3>
             <span>{props.synopsis}</span>
-            <Button variant="contained">Download PDF</Button>
+            <Button value="Download PDF"/>
         </section>
     );
 }
